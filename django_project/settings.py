@@ -62,6 +62,8 @@ CORS_ALLOWED_ORIGINS = (
     "http://localhost:8000",
 )
 
+CSRF_TRUSTED_ORIGINS = ["localhost:3000"]
+
 ROOT_URLCONF = 'django_project.urls'
 
 TEMPLATES = [
